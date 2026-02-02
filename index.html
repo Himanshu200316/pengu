@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H.N - Video Production Dallas</title>
+    <meta name="description"
+        content="Award-winning video production company in Dallas, TX. We listen, craft, and deliver stylish production with seamless execution.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Inter:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+
+<body class="loading">
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <nav class="navbar">
+        <div class="logo">H.N</div>
+    </nav>
+
+    <div class="smooth-scroll-wrapper">
+
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg">
+                <video autoplay muted loop playsinline>
+                    <source src="pengu1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="content">
+                <h1 class="hero-title">
+                    <span class="line reveal-text">IF I CAN'T FLY,</span>
+                    <span class="line reveal-text">I'LL CLIMB THE HIGHEST MOUNTAIN</span>
+                    <span class="line reveal-text">JUST TO TOUCH THE SKY.</span>
+                </h1>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section - Inspired by muizzwebstudio.com -->
+        <section class="section techstack-section" id="techstack">
+            <!-- Marquee rows behind the label -->
+            <div class="marquee-wrapper">
+                <div class="marquee-track row-1" data-direction="right">
+                    <div class="marquee-content">
+                        <span class="tech-badge aiml">AI/ML</span>
+                        <span class="tech-badge aiml">AI/ML</span>
+                        <span class="tech-badge aiml">AI/ML</span>
+                        <span class="tech-badge aiml">AI/ML</span>
+                        <span class="tech-badge aiml">AI/ML</span>
+                        <span class="tech-badge aiml">AI/ML</span>
+                    </div>
+                    <div class="marquee-content">
+                        <span class="tech-badge aiml">AI/ML</span>
+                        <span class="tech-badge aiml">AI/ML</span>
+                        <span class="tech-badge aiml">AI/ML</span>
+                        <span class="tech-badge aiml">AI/ML</span>
+                        <span class="tech-badge aiml">AI/ML</span>
+                        <span class="tech-badge aiml">AI/ML</span>
+                    </div>
+                </div>
+                <div class="marquee-track row-2" data-direction="left">
+                    <div class="marquee-content">
+                        <span class="tech-badge python">PYTHON</span>
+                        <span class="tech-badge python">PYTHON</span>
+                        <span class="tech-badge python">PYTHON</span>
+                        <span class="tech-badge python">PYTHON</span>
+                        <span class="tech-badge python">PYTHON</span>
+                        <span class="tech-badge python">PYTHON</span>
+                    </div>
+                    <div class="marquee-content">
+                        <span class="tech-badge python">PYTHON</span>
+                        <span class="tech-badge python">PYTHON</span>
+                        <span class="tech-badge python">PYTHON</span>
+                        <span class="tech-badge python">PYTHON</span>
+                        <span class="tech-badge python">PYTHON</span>
+                        <span class="tech-badge python">PYTHON</span>
+                    </div>
+                </div>
+                <div class="marquee-track row-3" data-direction="right">
+                    <div class="marquee-content">
+                        <span class="tech-badge webdev">WEB DEV</span>
+                        <span class="tech-badge webdev">WEB DEV</span>
+                        <span class="tech-badge webdev">WEB DEV</span>
+                        <span class="tech-badge webdev">WEB DEV</span>
+                        <span class="tech-badge webdev">WEB DEV</span>
+                        <span class="tech-badge webdev">WEB DEV</span>
+                    </div>
+                    <div class="marquee-content">
+                        <span class="tech-badge webdev">WEB DEV</span>
+                        <span class="tech-badge webdev">WEB DEV</span>
+                        <span class="tech-badge webdev">WEB DEV</span>
+                        <span class="tech-badge webdev">WEB DEV</span>
+                        <span class="tech-badge webdev">WEB DEV</span>
+                        <span class="tech-badge webdev">WEB DEV</span>
+                    </div>
+                </div>
+                <div class="marquee-track row-4" data-direction="left">
+                    <div class="marquee-content">
+                        <span class="tech-badge antigravity">ANTIGRAVITY</span>
+                        <span class="tech-badge antigravity">ANTIGRAVITY</span>
+                        <span class="tech-badge antigravity">ANTIGRAVITY</span>
+                        <span class="tech-badge antigravity">ANTIGRAVITY</span>
+                        <span class="tech-badge antigravity">ANTIGRAVITY</span>
+                        <span class="tech-badge antigravity">ANTIGRAVITY</span>
+                    </div>
+                    <div class="marquee-content">
+                        <span class="tech-badge antigravity">ANTIGRAVITY</span>
+                        <span class="tech-badge antigravity">ANTIGRAVITY</span>
+                        <span class="tech-badge antigravity">ANTIGRAVITY</span>
+                        <span class="tech-badge antigravity">ANTIGRAVITY</span>
+                        <span class="tech-badge antigravity">ANTIGRAVITY</span>
+                        <span class="tech-badge antigravity">ANTIGRAVITY</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Centered label -->
+            <div class="techstack-label">
+                <span>MY TECH STACK</span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+            <!-- Floating Particles Canvas -->
+            <canvas id="particles-canvas"></canvas>
+            <div class="content">
+                <h2 class="section-title reveal-text">CONTRIBUTING TO THE SOCIETY</h2>
+                <div class="sub-link reveal-text-delay">
+                    <a href="https://www.linkedin.com/in/himanshu-negi-/" target="_blank" class="arrow-link">VIEW
+                        LINKEDIN PROFILE <span class="arrow">→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- BTS Section - 1820 Style Image Trail -->
+        <section class="section bts-section" id="bts">
+            <!-- Container for dynamically spawned images -->
+            <div class="image-trail-container" id="image-trail-container"></div>
+            <div class="content bts-content">
+                <h2 class="section-title bts-title reveal-text">WALL OF FAILURE</h2>
+                <div class="sub-link reveal-text-delay">
+                    <span class="subtext">[ BEHIND THE SCENES ]</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Showreel Section -->
+        <section class="section showreel-section" id="showreel">
+            <!-- Wave Animation Canvas -->
+            <canvas id="wave-canvas"></canvas>
+            <div class="overlay-content">
+                <h2 class="section-title big box-text reveal-text">ONE STEP AT A TIME</h2>
+                <p class="showreel-subtext reveal-text-delay">Working for the Government of India on AI/ML</p>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section class="section clients-section" id="clients">
+            <!-- Code Rain Canvas -->
+            <canvas id="code-rain-canvas"></canvas>
+            <div class="content align-center">
+                <h2 class="section-title reveal-text">FOLLOW THE JOURNEY</h2>
+                <p class="subtitle reveal-text-delay">Got a vision? I've got caffeine and emotional availability.</p>
+                <div class="client-grid">
+                    <!-- Social Links -->
+                    <a href="https://www.linkedin.com/in/himanshu-negi-/" target="_blank"
+                        class="client-item">LINKEDIN</a>
+                    <a href="https://x.com/Aerion85654059" target="_blank" class="client-item">X (TWITTER)</a>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
